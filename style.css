@@ -178,13 +178,15 @@
     position: absolute;
     bottom: 20px;
     left: 20px;
-    color: black;
+    color: white;
+    font-size: 30px;
 }
 
 .storyReel{
     margin-top: -20px;
     padding: 10px 0;
     display: flex;
+    margin-left: 120px;
 }
 
 .main_body{
@@ -338,7 +340,7 @@ body{
         display: none;
     }
 
-    .header_input_input{
+    .header_input input{
         display: none;
     }
 
@@ -346,7 +348,7 @@ body{
         display: none;
     }
 
-    .header_info{
+    .header_info_img{
         display: none;
     }
 
@@ -355,10 +357,11 @@ body{
     }
 
     .feed{
-        margin-top: 20%;
+        margin-top: 20px;
         width: 100%;
         padding: 0;
     }  
+
 }
 
 .story h4{
@@ -371,12 +374,12 @@ body{
 
 @media (min-width: 320px){
     .storyReel{
-        width: 100%
-        overflow-x scroll;
+        width: 100%;
+        overflow-x: scroll;
     }
 }
 
-@media (min-width: 768px) and (maxx-width: 1440px){
+@media (min-width: 768px) and (max-width: 1440px){
     .feed{
         width: 50%;
         padding: 10px 50px;
