@@ -159,9 +159,8 @@
     background-size: cover;
     width: 120px;
     height: 200px;
-    box-shadow: 0px 5px 17px rgba(0, 0, 0, 0.75);
     border-radius: 10px;
-    margin-right: 10px;
+    margin-right: 30px;
     cursor: pointer;
     transition: transform 100ms ease-in;
 }
@@ -171,7 +170,7 @@
 }
 
 .story_profile{
-    margin: 10px;
+    margin: 2px;
 }
 
 .story h4{
@@ -183,10 +182,10 @@
 }
 
 .storyReel{
-    margin-top: -20px;
+    margin-top: -5px;
     padding: 10px 0;
     display: flex;
-    margin-left: 120px;
+    margin-left: 60px;
 }
 
 .main_body{
@@ -199,7 +198,7 @@ body{
 
 .feed{
     flex: 1;
-    padding: 30px 100px;
+    padding: 30px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -219,6 +218,7 @@ body{
     border-radius: 15px;
     box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
     width: 650px;
+    margin-left: 60px;
 }
 
 .messageSender_top{
@@ -270,10 +270,11 @@ body{
 
 .post{
     width: 650px;
-    margin-top: 15px;
+    margin-top: 10px;
     border-radius: 15px;
     background-color: white;
     box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    margin-left: 60px;
     
 }
 
@@ -387,8 +388,11 @@ body{
 }
 
 footer{
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     padding: 9px 20px;
     text-align: center;
+}
+.footer p{
+    font-size: x-small;
 }
